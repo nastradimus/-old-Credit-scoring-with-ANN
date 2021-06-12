@@ -1,10 +1,16 @@
-# creit_scroing_with_neural_networks
-In this project, we are solving the problem of credit risk. We are predicting that whether the customer will pay back the loan or not. Based on the previous data, we have trained machine learning and deep learning models to do so and achived 91%(approx) accuracy on testing set.
+# Программа поддержки принятия решений в сфере классификации заявок заёмщиков.
 
+В этой работе решена проблема кредитного риска. Модель определяет анализирует данные клиента и условий предоставления кредита и на основе этого выносит решение, зявка либо одобряется (значение 1), либо отклоняется (значение 0).
 
-We have trained 3 different kind of models on the data.
+Были применены и протестированны следующие методы машинного обучения:
+1. Логистическая регрессия
+2. Метод Random Forest
+3. Искусственные нейронные сети
 
-Logistic Regression
-RandomForest Classifier
-Neural Network with 3 hidden layers.
-Most of the time the accuracy on the testing set was around 91% for all the 3 models. Accuracy can be increased by tunning the models properly, but for now we are using them as defualt.
+Точноть разработанной модели нейросети составила порядка 92%.
+
+## Описание приложенных файлов
+1. credit_risk_dataset.csv  - исходная база данных
+2. dataedit.ipynb - файл программы по анализу и обработке исходных данных
+3. data_train.scv - подготовленная база данных для обучения
+4. programm_training.ipynb - файл программы по разработке и тестировании нейросети, а также сравнении её с другими методами
